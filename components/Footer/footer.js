@@ -32,8 +32,8 @@ const Footer = () => {
             <Col lg="3">
               <h6>Hours</h6>
               <ul>
-                <li>Monday - Friday: 10-5</li>
-                <li>Saturday: 10-2</li>
+                <li>Monday - Friday: 10-6</li>
+                <li>Saturday: 11-3</li>
               </ul>
               <a id="phone" href="tel:905-988-1413">
                 905-988-1413
