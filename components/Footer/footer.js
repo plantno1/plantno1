@@ -1,8 +1,8 @@
-import React from "react"
-import { Container, Row, Col } from "reactstrap"
-import { Link } from "gatsby"
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import { Link } from "gatsby";
 
-import "../Footer/footer.scss"
+import "../Footer/footer.scss";
 
 const links = [
   {
@@ -21,7 +21,7 @@ const links = [
     name: "Contact",
     link: "/contact",
   },
-]
+];
 
 const Footer = () => {
   return (
@@ -40,7 +40,7 @@ const Footer = () => {
               </a>
             </Col>
             <Col lg="3">
-              <h6>Location</h6>
+              <h6 className="loc">Location</h6>
               <p>
                 9 Westwood Court <br /> Niagara-on-the-Lake, Ontario
                 <br /> L0S1J0
@@ -48,7 +48,7 @@ const Footer = () => {
             </Col>
             <Col lg="6">
               <ul className="d-flex justify-content-between">
-                {links.map(link => (
+                {links.map((link) => (
                   <li>
                     <Link to={link.link}>{link.name}</Link>
                   </li>
@@ -73,7 +73,7 @@ const Footer = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

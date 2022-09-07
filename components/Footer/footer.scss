@@ -19,9 +19,17 @@
   .infused {
     p {
       font-size: 14px;
+      @include bp-tablet-sm {
+        margin-bottom: 0 !important;
+      }
     }
   }
   #phone {
     color: $white;
+  }
+  .loc {
+    @include bp-tablet-sm {
+      margin-top: 24px;
+    }
   }
 }

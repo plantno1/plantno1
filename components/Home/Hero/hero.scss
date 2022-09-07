@@ -13,6 +13,9 @@
   }
   .seo {
     padding-bottom: 150px;
+    @include bp-tablet-sm {
+      padding-bottom: 50px;
+    }
     h1 {
       font-size: 16px;
       letter-spacing: 2px;
@@ -24,6 +27,9 @@
       font-size: 80px !important;
       margin-bottom: 0px !important;
       letter-spacing: 2px;
+      @include bp-tablet-sm {
+        font-size: 50px !important;
+      }
     }
     h3, p {
       color: rgba($white, .7);
@@ -34,6 +40,9 @@
     }
     p {
       font-size: 16px;
+      @include bp-tablet-sm {
+        font-size: 12px;
+      }
     }
   }
   #box {
@@ -48,6 +57,9 @@
     }
     h1 {
       font-size: 16px;
+      @include bp-tablet-sm {
+        line-height: 1.6;
+      }
     }
     h2 {
       font-size: 50px;
