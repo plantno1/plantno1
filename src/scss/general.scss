@@ -1,0 +1,26 @@
+// General
+@import "../scss/variables.scss";
+@import "../scss/breakpoints.scss";
+
+button {
+  &.btn-secondary {
+    background: rgba(0, 0, 0, 0) !important;
+    border: 3px solid $gold !important;
+    border-radius: 0 !important;
+    padding: 15px 40px 15px 40px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px;
+    &:focus,
+    &:hover {
+      background: $gold !important;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}

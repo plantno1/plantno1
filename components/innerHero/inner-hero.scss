@@ -1,0 +1,13 @@
+@import "../../src/scss/breakpoints.scss";
+@import "../../src/scss/variables.scss";
+
+.inner-hero {
+  padding: 550px 0px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -110px;
+  @include bp-tablet-sm {
+    padding: 220px 0px 0px 0px;
+  }
+}

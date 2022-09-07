@@ -1,0 +1,60 @@
+@import "../../../src/scss/variables.scss";
+@import "../../../src/scss/breakpoints.scss";
+
+#hero {
+  background: url("../../../src/img/hero.jpg") center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 280px;
+  margin-top: -110px;
+  @include bp-tablet-sm {
+    padding-top: 150px;
+    margin-top: 0px;
+  }
+  .seo {
+    padding-bottom: 150px;
+    h1 {
+      font-size: 16px;
+      letter-spacing: 2px;
+      color: rgba($white, .7);
+      margin-bottom: 0px !important;
+    }
+    h2 {
+      color: $white;
+      font-size: 80px !important;
+      margin-bottom: 0px !important;
+      letter-spacing: 2px;
+    }
+    h3, p {
+      color: rgba($white, .7);
+      letter-spacing: 2px;
+    }
+    h3 {
+      font-size: 26px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  #box {
+    background: rgba($black, 0.7);
+    padding: 40px;
+    @include bp-tablet-sm {
+      padding: 20px 0px 20px 0px;
+    }
+    h1,
+    h2 {
+      color: $white;
+    }
+    h1 {
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 50px;
+      @include bp-tablet-sm {
+        font-size: 28px;
+        margin-bottom: 0px !important;
+      }
+    }
+  }
+}

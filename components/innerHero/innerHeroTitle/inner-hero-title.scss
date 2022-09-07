@@ -1,0 +1,18 @@
+@import "../../../src/scss/breakpoints.scss";
+@import "../../../src/scss/variables.scss";
+
+.inner-hero-title {
+  padding: 60px 0px 60px 0px;
+  background: rgba($black, 0.7);
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
+  h1 {
+    color: $white;
+  }
+  p {
+    color: rgba($white, 0.6);
+    font-family: $marck;
+    font-size: 24px;
+  }
+}

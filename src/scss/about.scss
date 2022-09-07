@@ -1,0 +1,11 @@
+@import "../scss/breakpoints.scss";
+@import "../scss/variables.scss";
+
+.about {
+  .pd-right-none {
+    padding-right: 0px;
+    @include bp-tablet-sm {
+      padding-right: 15px;
+    }
+  }
+}
