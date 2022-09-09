@@ -45,7 +45,7 @@ const Menu = () => {
                 <ul>
                   <li>
                     Six layer lasagna with house made meat and cheese sauce
-                    served with dinner roll with butter.
+                    served with dinner roll and butter.
                   </li>
                 </ul>
                 <h3>Empanadas (two)</h3>
@@ -56,7 +56,8 @@ const Menu = () => {
                 <ul>
                   <li>
                     Black bean and potato hash served with house made ketchup.
-                    Side of seasonal vegetables.
+                    Side of seasonal vegetables. Served with dinner roll and
+                    butter.
                   </li>
                 </ul>
                 <h3>Mac and cheese</h3>
@@ -105,6 +106,7 @@ const Menu = () => {
                 <h3>Sandwich cookies</h3>
                 <ul>
                   <li>Peanut butter with chocolate ganache.</li>
+                  <li>Dark chocolate with vanilla cream.</li>
                 </ul>
                 <h3>Dark chocolate oreo cookie</h3>
                 <ul>
