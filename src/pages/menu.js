@@ -108,10 +108,6 @@ const Menu = () => {
                   <li>Peanut butter with chocolate ganache.</li>
                   <li>Dark chocolate with vanilla cream.</li>
                 </ul>
-                <h3>Dark chocolate oreo cookie</h3>
-                <ul>
-                  <li>NEED DESCRIPTION</li>
-                </ul>
                 <h3>Seasonal semolina cake</h3>
                 <ul>
                   <li>Made with seasonal, local fruit.</li>
