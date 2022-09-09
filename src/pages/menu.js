@@ -1,18 +1,18 @@
-import React from "react"
-import { Container, Row, Col, Button } from "reactstrap"
-import { Helmet } from "react-helmet"
-import Nav from "../../components/Nav/nav"
-import InnerContent from "../../components/innerContent/innerContent"
-import Footer from "../../components/Footer/footer"
-import InnerHero from "../../components/innerHero/innerHero"
-import imgMeal from "../img/daily-grub-menu.jpg"
-import imgDessert from "../img/daily-desserts-menu.jpg"
-import imgCatering from "../img/catering-menu.jpg"
-import desertMenu from "../img/desert-menu.pdf"
-import grubMenu from "../img/grub-menu.pdf"
-import cateringMenu from "../img/catering-menu.pdf"
-import bgImage from "../img/hero.jpg"
-import "../scss/menu.scss"
+import React from "react";
+import { Container, Row, Col, Button } from "reactstrap";
+import { Helmet } from "react-helmet";
+import Nav from "../../components/Nav/nav";
+import InnerContent from "../../components/innerContent/innerContent";
+import Footer from "../../components/Footer/footer";
+import InnerHero from "../../components/innerHero/innerHero";
+import imgMeal from "../img/daily-grub-menu.jpg";
+import imgDessert from "../img/daily-desserts-menu.jpg";
+import imgCatering from "../img/catering-menu.jpg";
+import desertMenu from "../img/desert-menu.pdf";
+import grubMenu from "../img/grub-menu.pdf";
+import cateringMenu from "../img/catering-menu.pdf";
+import bgImage from "../img/hero.jpg";
+import "../scss/menu.scss";
 
 const Menu = () => {
   return (
@@ -44,8 +44,8 @@ const Menu = () => {
                 <h3>Lasagna</h3>
                 <ul>
                   <li>
-                    Six layer lasagna with house made meat and cheese sauce.
-                    Served with dinner roll with butter.
+                    Six layer lasagna with house made meat and cheese sauce
+                    served with dinner roll with butter.
                   </li>
                 </ul>
                 <h3>Empanadas (two)</h3>
@@ -62,7 +62,7 @@ const Menu = () => {
                 <h3>Mac and cheese</h3>
                 <ul>
                   <li>
-                    Creamy cheese sauce with elbow pasta served with bacon And
+                    Creamy cheese sauce with elbow pasta served with bacon and
                     parmesan. Side of seasonal vegetables and dinner roll and
                     butter.
                   </li>
@@ -71,26 +71,26 @@ const Menu = () => {
                 <ul>
                   <li>
                     Garlic, kale sweet potato gnocchi served with seasonal
-                    Vegetables, dinner roll and butter.
+                    vegetables, dinner roll and butter.
                   </li>
                 </ul>
-                <h3>Sunday Dinner</h3>
+                <h3>Sunday Night Dinner</h3>
                 <ul>
                   <li>
                     Meatloaf , scalloped potatoes, seasonal vegetables served
-                    With gravy, dinner roll and butter
+                    with gravy, dinner roll and butter.
                   </li>
                 </ul>
                 <p className="script">
                   Daily specials, creations, experiments and potential
-                  blunders... see our Instagram posts and updates.
+                  blunders... see our Instagram posts for updates.
                 </p>
               </Col>
             </Row>
             <br />
             <Row>
               <Col lg="12">
-                <h2 className="menu-title">Daily Dessert Menu</h2>
+                <h2 className="menu-title">Daily Grub Dessert Menu</h2>
                 <p class="script">
                   May vary depending on our customer’s stress levels, World
                   events, and our own shortcomings. *Unbleached, Non GMO Flours,
@@ -104,22 +104,23 @@ const Menu = () => {
                 </ul>
                 <h3>Sandwich cookies</h3>
                 <ul>
-                  <li>
-                    Peanut butter with chocolate ganache, dark chocolate oreo
-                    cookie.
-                  </li>
+                  <li>Peanut butter with chocolate ganache.</li>
+                </ul>
+                <h3>Dark chocolate oreo cookie</h3>
+                <ul>
+                  <li>NEED DESCRIPTION</li>
                 </ul>
                 <h3>Seasonal semolina cake</h3>
                 <ul>
-                  <li>Made with seasonal, local fruit</li>
+                  <li>Made with seasonal, local fruit.</li>
                 </ul>
                 <h3>Triple chocolate brownie</h3>
                 <ul>
-                  <li>Chewie, intense dark chocolate</li>
+                  <li>Chewie, intense dark chocolate.</li>
                 </ul>
                 <h3>Chocolate chunk cookie</h3>
                 <ul>
-                  <li>Soft and chewy with Malden sea salt</li>
+                  <li>Soft and chewy with Malden sea salt.</li>
                 </ul>
                 <h3>Cupcake</h3>
                 <ul>
@@ -131,12 +132,12 @@ const Menu = () => {
                 <h3>Carrot cake</h3>
                 <ul>
                   <li>
-                    Traditional moist cake topped with cream cheese frosting
+                    Traditional moist cake topped with cream cheese frosting.
                   </li>
                 </ul>
                 <h3>Key lime pie</h3>
                 <ul>
-                  <li>Creamy key lime filling with lime curd</li>
+                  <li>Creamy key lime filling with lime curd.</li>
                 </ul>
                 <p className="script">
                   Daily inspirations, fits of addiction and hormone induced
@@ -186,7 +187,7 @@ const Menu = () => {
       </InnerContent>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;
